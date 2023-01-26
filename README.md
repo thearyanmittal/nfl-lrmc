@@ -1,0 +1,2 @@
+# An LRMC Model for the NFL
+This is a model for generating NFL power rankings and predicting playoff games using a modified logistic regression/Markov chain method as proposed in a [paper](https://www2.isye.gatech.edu/~jsokol/ncaa.pdf) by Kvam and Sokol.
