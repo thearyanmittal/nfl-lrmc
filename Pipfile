@@ -12,6 +12,7 @@ seaborn = "*"
 scikit-learn = "*"
 tornado = "==5.1.1"
 ipykernel = "*"
+traitlets = "==4.3.3"
 
 [dev-packages]
 
