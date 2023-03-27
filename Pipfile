@@ -12,6 +12,7 @@ seaborn = "*"
 scikit-learn = "*"
 ipykernel = "*"
 ipython = "*"
+jupyter = "*"
 
 [dev-packages]
 
