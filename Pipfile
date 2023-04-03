@@ -13,6 +13,7 @@ scikit-learn = "*"
 ipykernel = "*"
 ipython = "*"
 jupyter = "*"
+statsmodels = "*"
 
 [dev-packages]
 

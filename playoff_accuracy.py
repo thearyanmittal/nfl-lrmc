@@ -2,7 +2,10 @@
 import nfl_data_py as nfl
 import numpy as np
 import pandas as pd
+
 from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error as mse
 
 for TEST_YEAR in range(2005, 2023):
 
@@ -122,17 +125,38 @@ for TEST_YEAR in range(2005, 2023):
         })
         rating_df.set_index('team', inplace=True)
 
+        # linear regression to take home field into consideration
+        linr_X = np.array([
+            rating_df.loc[row['home_team']]['rating'] - rating_df.loc[row['away_team']]['rating']
+            for (index, row) in games_test_year.iterrows()
+        ])
+        linr_y = np.array([row['result'] for (index, row) in games_test_year.iterrows()])
+
+        playoff_clf = LinearRegression().fit(linr_X.reshape(-1, 1), linr_y.reshape(-1, 1))
+
         # loop through TEST_YEAR's playoff games and compute accuracy
         playoffs = games[(games['season'] == TEST_YEAR) & (games['game_type'] != 'REG')]
+        linr_X_test = np.array([
+            rating_df.loc[row['home_team']]['rating'] - rating_df.loc[row['away_team']]['rating']
+            for (index, row) in playoffs.iterrows()
+        ])
+        linr_y_test = np.array(playoffs['result'])
+
         total, correct = 0, 0
         for (index, game) in playoffs.iterrows():
             home_won = True if game['result'] > 0 else False
             home_pred = True \
-                if rating_df.loc[game['home_team']]['rating'] > rating_df.loc[game['away_team']]['rating'] else False
+                if playoff_clf.predict(np.array([
+                                        rating_df.loc[game['home_team']]['rating'] -
+                                        rating_df.loc[game['away_team']]['rating']]).reshape(-1, 1))[0][0] > 0 \
+                else False
             correct += home_won == home_pred
             total += 1
 
-        print(f"{METRIC} {TEST_YEAR} Playoff Accuracy: {correct}/{total} = {correct/total}")
+        with open('results/playoff_results.txt', 'a') as file:
+            file.write(f"{TEST_YEAR} {METRIC} Playoff Accuracy: {correct}/{total} = {correct/total} \n")
+            file.write(f"{TEST_YEAR} {METRIC} LinReg Playoff RMSE: {mse(linr_y_test, playoff_clf.predict(linr_X_test.reshape(-1, 1)), squared=False)} \n")
+            file.write(f"{TEST_YEAR} {METRIC} LinReg RegSzn RMSE: {mse(linr_y, playoff_clf.predict(linr_X.reshape(-1, 1)), squared=False)} \n")
 
     playoffs = games[(games['season'] == TEST_YEAR) & (games['game_type'] != 'REG')]
     total, correct = 0, 0
@@ -143,4 +167,8 @@ for TEST_YEAR in range(2005, 2023):
         correct += home_won == home_pred
         total += 1
 
-    print(f"{TEST_YEAR} Spread Playoff Accuracy: {correct}/{total} = {correct/total}")
+    with open('results/playoff_results.txt', 'a') as file:
+        file.write(f"{TEST_YEAR} Spread Playoff Accuracy: {correct}/{total} = {correct/total} \n")
+        file.write(f"{TEST_YEAR} Spread Playoff RMSE: {mse(np.array(playoffs['result']), np.array(playoffs['spread_line']), squared=False)} \n")
+        file.write(f"{TEST_YEAR} Spread RegSzn RMSE: {mse(np.array(games_test_year['result']), np.array(games_test_year['spread_line']), squared=False)} \n")
+        file.write('\n')

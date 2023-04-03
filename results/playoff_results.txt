@@ -1,0 +1,504 @@
+2005 point diff Playoff Accuracy: 8/11 = 0.7272727272727273 
+2005 point diff LinReg Playoff RMSE: 15.129902946664162 
+2005 point diff LinReg RegSzn RMSE: 11.561336208020695 
+2005 point ratio Playoff Accuracy: 7/11 = 0.6363636363636364 
+2005 point ratio LinReg Playoff RMSE: 15.258685206344353 
+2005 point ratio LinReg RegSzn RMSE: 11.690904378120374 
+2005 pythagorean point ratio Playoff Accuracy: 6/11 = 0.5454545454545454 
+2005 pythagorean point ratio LinReg Playoff RMSE: 15.677893203163492 
+2005 pythagorean point ratio LinReg RegSzn RMSE: 11.681366385942727 
+2005 dsr Playoff Accuracy: 6/11 = 0.5454545454545454 
+2005 dsr LinReg Playoff RMSE: 16.29424230568628 
+2005 dsr LinReg RegSzn RMSE: 12.479974468760838 
+2005 game control Playoff Accuracy: 5/11 = 0.45454545454545453 
+2005 game control LinReg Playoff RMSE: 15.913687196224105 
+2005 game control LinReg RegSzn RMSE: 11.991942227093618 
+2005 game control signed Playoff Accuracy: 5/11 = 0.45454545454545453 
+2005 game control signed LinReg Playoff RMSE: 15.92933345596541 
+2005 game control signed LinReg RegSzn RMSE: 11.967706968881275 
+2005 game control avg Playoff Accuracy: 6/11 = 0.5454545454545454 
+2005 game control avg LinReg Playoff RMSE: 15.52309318884127 
+2005 game control avg LinReg RegSzn RMSE: 11.909675700753892 
+2005 game control fourth Playoff Accuracy: 6/11 = 0.5454545454545454 
+2005 game control fourth LinReg Playoff RMSE: 15.974836238740446 
+2005 game control fourth LinReg RegSzn RMSE: 11.93638183332947 
+2005 Spread Playoff Accuracy: 6/11 = 0.5454545454545454 
+2005 Spread Playoff RMSE: 14.24541393508164 
+2005 Spread RegSzn RMSE: 12.949797899002132 
+
+2006 point diff Playoff Accuracy: 5/11 = 0.45454545454545453 
+2006 point diff LinReg Playoff RMSE: 10.834084099055218 
+2006 point diff LinReg RegSzn RMSE: 12.031290459775596 
+2006 point ratio Playoff Accuracy: 5/11 = 0.45454545454545453 
+2006 point ratio LinReg Playoff RMSE: 10.704990551655573 
+2006 point ratio LinReg RegSzn RMSE: 12.211208295696313 
+2006 pythagorean point ratio Playoff Accuracy: 5/11 = 0.45454545454545453 
+2006 pythagorean point ratio LinReg Playoff RMSE: 10.4071154310873 
+2006 pythagorean point ratio LinReg RegSzn RMSE: 12.171960827923238 
+2006 dsr Playoff Accuracy: 6/11 = 0.5454545454545454 
+2006 dsr LinReg Playoff RMSE: 10.171815215571945 
+2006 dsr LinReg RegSzn RMSE: 12.509338435295355 
+2006 game control Playoff Accuracy: 6/11 = 0.5454545454545454 
+2006 game control LinReg Playoff RMSE: 9.463618811968697 
+2006 game control LinReg RegSzn RMSE: 12.429028000570558 
+2006 game control signed Playoff Accuracy: 7/11 = 0.6363636363636364 
+2006 game control signed LinReg Playoff RMSE: 9.738128101987538 
+2006 game control signed LinReg RegSzn RMSE: 12.40303862350765 
+2006 game control avg Playoff Accuracy: 7/11 = 0.6363636363636364 
+2006 game control avg LinReg Playoff RMSE: 9.752311332250219 
+2006 game control avg LinReg RegSzn RMSE: 12.386748173858695 
+2006 game control fourth Playoff Accuracy: 7/11 = 0.6363636363636364 
+2006 game control fourth LinReg Playoff RMSE: 9.575621365463416 
+2006 game control fourth LinReg RegSzn RMSE: 12.554056107486883 
+2006 Spread Playoff Accuracy: 8/11 = 0.7272727272727273 
+2006 Spread Playoff RMSE: 9.519119516196671 
+2006 Spread RegSzn RMSE: 13.5625 
+
+2007 point diff Playoff Accuracy: 5/11 = 0.45454545454545453 
+2007 point diff LinReg Playoff RMSE: 13.289845927942297 
+2007 point diff LinReg RegSzn RMSE: 11.809974777388902 
+2007 point ratio Playoff Accuracy: 5/11 = 0.45454545454545453 
+2007 point ratio LinReg Playoff RMSE: 11.168002522993774 
+2007 point ratio LinReg RegSzn RMSE: 11.885474903662203 
+2007 pythagorean point ratio Playoff Accuracy: 4/11 = 0.36363636363636365 
+2007 pythagorean point ratio LinReg Playoff RMSE: 11.26719205584581 
+2007 pythagorean point ratio LinReg RegSzn RMSE: 11.832435690555743 
+2007 dsr Playoff Accuracy: 5/11 = 0.45454545454545453 
+2007 dsr LinReg Playoff RMSE: 13.142858286624884 
+2007 dsr LinReg RegSzn RMSE: 12.675827709881457 
+2007 game control Playoff Accuracy: 5/11 = 0.45454545454545453 
+2007 game control LinReg Playoff RMSE: 13.032459808584438 
+2007 game control LinReg RegSzn RMSE: 12.254504041135549 
+2007 game control signed Playoff Accuracy: 5/11 = 0.45454545454545453 
+2007 game control signed LinReg Playoff RMSE: 13.091463641800305 
+2007 game control signed LinReg RegSzn RMSE: 12.197696952262042 
+2007 game control avg Playoff Accuracy: 5/11 = 0.45454545454545453 
+2007 game control avg LinReg Playoff RMSE: 13.003310175707147 
+2007 game control avg LinReg RegSzn RMSE: 12.14289873450174 
+2007 game control fourth Playoff Accuracy: 5/11 = 0.45454545454545453 
+2007 game control fourth LinReg Playoff RMSE: 12.83732775340798 
+2007 game control fourth LinReg RegSzn RMSE: 12.239518094740115 
+2007 Spread Playoff Accuracy: 6/11 = 0.5454545454545454 
+2007 Spread Playoff RMSE: 10.960673502863026 
+2007 Spread RegSzn RMSE: 13.40504802303968 
+
+2008 point diff Playoff Accuracy: 5/11 = 0.45454545454545453 
+2008 point diff LinReg Playoff RMSE: 13.359429033549787 
+2008 point diff LinReg RegSzn RMSE: 12.322356242675042 
+2008 point ratio Playoff Accuracy: 5/11 = 0.45454545454545453 
+2008 point ratio LinReg Playoff RMSE: 12.519067434495517 
+2008 point ratio LinReg RegSzn RMSE: 12.49359660753542 
+2008 pythagorean point ratio Playoff Accuracy: 5/11 = 0.45454545454545453 
+2008 pythagorean point ratio LinReg Playoff RMSE: 12.302457854182006 
+2008 pythagorean point ratio LinReg RegSzn RMSE: 12.471426299085971 
+2008 dsr Playoff Accuracy: 7/11 = 0.6363636363636364 
+2008 dsr LinReg Playoff RMSE: 10.880718238019888 
+2008 dsr LinReg RegSzn RMSE: 12.810522520391908 
+2008 game control Playoff Accuracy: 4/11 = 0.36363636363636365 
+2008 game control LinReg Playoff RMSE: 12.51892617077643 
+2008 game control LinReg RegSzn RMSE: 13.079939346080076 
+2008 game control signed Playoff Accuracy: 6/11 = 0.5454545454545454 
+2008 game control signed LinReg Playoff RMSE: 13.101387803642726 
+2008 game control signed LinReg RegSzn RMSE: 12.891023232205779 
+2008 game control avg Playoff Accuracy: 6/11 = 0.5454545454545454 
+2008 game control avg LinReg Playoff RMSE: 12.954350110421423 
+2008 game control avg LinReg RegSzn RMSE: 12.839891600932681 
+2008 game control fourth Playoff Accuracy: 5/11 = 0.45454545454545453 
+2008 game control fourth LinReg Playoff RMSE: 12.588119940688914 
+2008 game control fourth LinReg RegSzn RMSE: 12.758025638150398 
+2008 Spread Playoff Accuracy: 7/11 = 0.6363636363636364 
+2008 Spread Playoff RMSE: 12.237238250520416 
+2008 Spread RegSzn RMSE: 13.927687128522093 
+
+2009 point diff Playoff Accuracy: 8/11 = 0.7272727272727273 
+2009 point diff LinReg Playoff RMSE: 15.541676090146487 
+2009 point diff LinReg RegSzn RMSE: 12.99981921479539 
+2009 point ratio Playoff Accuracy: 7/11 = 0.6363636363636364 
+2009 point ratio LinReg Playoff RMSE: 16.337739246962915 
+2009 point ratio LinReg RegSzn RMSE: 13.079964848766162 
+2009 pythagorean point ratio Playoff Accuracy: 8/11 = 0.7272727272727273 
+2009 pythagorean point ratio LinReg Playoff RMSE: 15.983382249490997 
+2009 pythagorean point ratio LinReg RegSzn RMSE: 13.042264123308387 
+2009 dsr Playoff Accuracy: 8/11 = 0.7272727272727273 
+2009 dsr LinReg Playoff RMSE: 15.766427923745953 
+2009 dsr LinReg RegSzn RMSE: 13.36837489228165 
+2009 game control Playoff Accuracy: 7/11 = 0.6363636363636364 
+2009 game control LinReg Playoff RMSE: 17.228972285655676 
+2009 game control LinReg RegSzn RMSE: 13.372913700754719 
+2009 game control signed Playoff Accuracy: 8/11 = 0.7272727272727273 
+2009 game control signed LinReg Playoff RMSE: 17.01165944457511 
+2009 game control signed LinReg RegSzn RMSE: 13.28293463383661 
+2009 game control avg Playoff Accuracy: 8/11 = 0.7272727272727273 
+2009 game control avg LinReg Playoff RMSE: 16.837245761723274 
+2009 game control avg LinReg RegSzn RMSE: 13.235017659065795 
+2009 game control fourth Playoff Accuracy: 7/11 = 0.6363636363636364 
+2009 game control fourth LinReg Playoff RMSE: 16.13328340662174 
+2009 game control fourth LinReg RegSzn RMSE: 13.240278635912723 
+2009 Spread Playoff Accuracy: 6/11 = 0.5454545454545454 
+2009 Spread Playoff RMSE: 16.422683868800053 
+2009 Spread RegSzn RMSE: 14.203666450075488 
+
+2010 point diff Playoff Accuracy: 9/11 = 0.8181818181818182 
+2010 point diff LinReg Playoff RMSE: 11.634466301741288 
+2010 point diff LinReg RegSzn RMSE: 12.443284484708181 
+2010 point ratio Playoff Accuracy: 8/11 = 0.7272727272727273 
+2010 point ratio LinReg Playoff RMSE: 11.274644125806883 
+2010 point ratio LinReg RegSzn RMSE: 12.520972342877027 
+2010 pythagorean point ratio Playoff Accuracy: 8/11 = 0.7272727272727273 
+2010 pythagorean point ratio LinReg Playoff RMSE: 11.255272973273138 
+2010 pythagorean point ratio LinReg RegSzn RMSE: 12.48543877416505 
+2010 dsr Playoff Accuracy: 8/11 = 0.7272727272727273 
+2010 dsr LinReg Playoff RMSE: 11.082005519257327 
+2010 dsr LinReg RegSzn RMSE: 13.13037324578085 
+2010 game control Playoff Accuracy: 9/11 = 0.8181818181818182 
+2010 game control LinReg Playoff RMSE: 11.851915685013859 
+2010 game control LinReg RegSzn RMSE: 12.820135096772525 
+2010 game control signed Playoff Accuracy: 9/11 = 0.8181818181818182 
+2010 game control signed LinReg Playoff RMSE: 11.686103051935525 
+2010 game control signed LinReg RegSzn RMSE: 12.767406085564483 
+2010 game control avg Playoff Accuracy: 9/11 = 0.8181818181818182 
+2010 game control avg LinReg Playoff RMSE: 11.610181250884953 
+2010 game control avg LinReg RegSzn RMSE: 12.72035143847277 
+2010 game control fourth Playoff Accuracy: 7/11 = 0.6363636363636364 
+2010 game control fourth LinReg Playoff RMSE: 11.95529294537931 
+2010 game control fourth LinReg RegSzn RMSE: 12.80876367333287 
+2010 Spread Playoff Accuracy: 6/11 = 0.5454545454545454 
+2010 Spread Playoff RMSE: 12.584261454834621 
+2010 Spread RegSzn RMSE: 13.947551028316763 
+
+2011 point diff Playoff Accuracy: 7/11 = 0.6363636363636364 
+2011 point diff LinReg Playoff RMSE: 14.716725492372623 
+2011 point diff LinReg RegSzn RMSE: 12.195051017291878 
+2011 point ratio Playoff Accuracy: 8/11 = 0.7272727272727273 
+2011 point ratio LinReg Playoff RMSE: 14.40660014267785 
+2011 point ratio LinReg RegSzn RMSE: 12.34858280540678 
+2011 pythagorean point ratio Playoff Accuracy: 8/11 = 0.7272727272727273 
+2011 pythagorean point ratio LinReg Playoff RMSE: 14.579895474920502 
+2011 pythagorean point ratio LinReg RegSzn RMSE: 12.320146455484231 
+2011 dsr Playoff Accuracy: 6/11 = 0.5454545454545454 
+2011 dsr LinReg Playoff RMSE: 13.430516866161692 
+2011 dsr LinReg RegSzn RMSE: 12.831708612933054 
+2011 game control Playoff Accuracy: 7/11 = 0.6363636363636364 
+2011 game control LinReg Playoff RMSE: 15.994246102807946 
+2011 game control LinReg RegSzn RMSE: 12.640684886273744 
+2011 game control signed Playoff Accuracy: 7/11 = 0.6363636363636364 
+2011 game control signed LinReg Playoff RMSE: 15.851968241167457 
+2011 game control signed LinReg RegSzn RMSE: 12.546262519981079 
+2011 game control avg Playoff Accuracy: 7/11 = 0.6363636363636364 
+2011 game control avg LinReg Playoff RMSE: 15.805097950097217 
+2011 game control avg LinReg RegSzn RMSE: 12.521361363942928 
+2011 game control fourth Playoff Accuracy: 8/11 = 0.7272727272727273 
+2011 game control fourth LinReg Playoff RMSE: 15.843220317312698 
+2011 game control fourth LinReg RegSzn RMSE: 12.583369577912633 
+2011 Spread Playoff Accuracy: 7/11 = 0.6363636363636364 
+2011 Spread Playoff RMSE: 13.366341717504117 
+2011 Spread RegSzn RMSE: 13.653532338281549 
+
+2012 point diff Playoff Accuracy: 7/11 = 0.6363636363636364 
+2012 point diff LinReg Playoff RMSE: 11.001173212517212 
+2012 point diff LinReg RegSzn RMSE: 12.38600877959098 
+2012 point ratio Playoff Accuracy: 7/11 = 0.6363636363636364 
+2012 point ratio LinReg Playoff RMSE: 10.3879693840698 
+2012 point ratio LinReg RegSzn RMSE: 12.439276993212681 
+2012 pythagorean point ratio Playoff Accuracy: 7/11 = 0.6363636363636364 
+2012 pythagorean point ratio LinReg Playoff RMSE: 10.535599789467975 
+2012 pythagorean point ratio LinReg RegSzn RMSE: 12.440982760392535 
+2012 dsr Playoff Accuracy: 7/11 = 0.6363636363636364 
+2012 dsr LinReg Playoff RMSE: 10.762505233527534 
+2012 dsr LinReg RegSzn RMSE: 13.329812154732549 
+2012 game control Playoff Accuracy: 7/11 = 0.6363636363636364 
+2012 game control LinReg Playoff RMSE: 11.273642901409008 
+2012 game control LinReg RegSzn RMSE: 12.738099152908914 
+2012 game control signed Playoff Accuracy: 7/11 = 0.6363636363636364 
+2012 game control signed LinReg Playoff RMSE: 11.276632393106377 
+2012 game control signed LinReg RegSzn RMSE: 12.767318080893277 
+2012 game control avg Playoff Accuracy: 7/11 = 0.6363636363636364 
+2012 game control avg LinReg Playoff RMSE: 11.00715531712749 
+2012 game control avg LinReg RegSzn RMSE: 12.730414741825582 
+2012 game control fourth Playoff Accuracy: 8/11 = 0.7272727272727273 
+2012 game control fourth LinReg Playoff RMSE: 11.303896199150316 
+2012 game control fourth LinReg RegSzn RMSE: 12.719528360342673 
+2012 Spread Playoff Accuracy: 8/11 = 0.7272727272727273 
+2012 Spread Playoff RMSE: 9.198567082086011 
+2012 Spread RegSzn RMSE: 14.01376973506772 
+
+2013 point diff Playoff Accuracy: 8/11 = 0.7272727272727273 
+2013 point diff LinReg Playoff RMSE: 14.896555744386363 
+2013 point diff LinReg RegSzn RMSE: 11.00274146276664 
+2013 point ratio Playoff Accuracy: 9/11 = 0.8181818181818182 
+2013 point ratio LinReg Playoff RMSE: 13.722398623653847 
+2013 point ratio LinReg RegSzn RMSE: 11.136141938523204 
+2013 pythagorean point ratio Playoff Accuracy: 9/11 = 0.8181818181818182 
+2013 pythagorean point ratio LinReg Playoff RMSE: 14.054002988190039 
+2013 pythagorean point ratio LinReg RegSzn RMSE: 11.102815258124114 
+2013 dsr Playoff Accuracy: 6/11 = 0.5454545454545454 
+2013 dsr LinReg Playoff RMSE: 17.42568841419395 
+2013 dsr LinReg RegSzn RMSE: 12.028409227803085 
+2013 game control Playoff Accuracy: 8/11 = 0.7272727272727273 
+2013 game control LinReg Playoff RMSE: 14.472344345911326 
+2013 game control LinReg RegSzn RMSE: 11.382957792254278 
+2013 game control signed Playoff Accuracy: 8/11 = 0.7272727272727273 
+2013 game control signed LinReg Playoff RMSE: 14.896637586943818 
+2013 game control signed LinReg RegSzn RMSE: 11.338913127407535 
+2013 game control avg Playoff Accuracy: 8/11 = 0.7272727272727273 
+2013 game control avg LinReg Playoff RMSE: 14.429768714673607 
+2013 game control avg LinReg RegSzn RMSE: 11.299123095990685 
+2013 game control fourth Playoff Accuracy: 9/11 = 0.8181818181818182 
+2013 game control fourth LinReg Playoff RMSE: 15.271949932388184 
+2013 game control fourth LinReg RegSzn RMSE: 11.240281387081142 
+2013 Spread Playoff Accuracy: 7/11 = 0.6363636363636364 
+2013 Spread Playoff RMSE: 14.471759332638799 
+2013 Spread RegSzn RMSE: 12.695079324781709 
+
+2014 point diff Playoff Accuracy: 7/11 = 0.6363636363636364 
+2014 point diff LinReg Playoff RMSE: 12.428301817811953 
+2014 point diff LinReg RegSzn RMSE: 13.159367819089857 
+2014 point ratio Playoff Accuracy: 7/11 = 0.6363636363636364 
+2014 point ratio LinReg Playoff RMSE: 13.024612263543334 
+2014 point ratio LinReg RegSzn RMSE: 13.246348839113951 
+2014 pythagorean point ratio Playoff Accuracy: 7/11 = 0.6363636363636364 
+2014 pythagorean point ratio LinReg Playoff RMSE: 13.399529729693414 
+2014 pythagorean point ratio LinReg RegSzn RMSE: 13.226306296841408 
+2014 dsr Playoff Accuracy: 7/11 = 0.6363636363636364 
+2014 dsr LinReg Playoff RMSE: 13.326554755511571 
+2014 dsr LinReg RegSzn RMSE: 13.70751653784082 
+2014 game control Playoff Accuracy: 7/11 = 0.6363636363636364 
+2014 game control LinReg Playoff RMSE: 13.524628615090174 
+2014 game control LinReg RegSzn RMSE: 13.376970875111054 
+2014 game control signed Playoff Accuracy: 6/11 = 0.5454545454545454 
+2014 game control signed LinReg Playoff RMSE: 13.236434202950223 
+2014 game control signed LinReg RegSzn RMSE: 13.342530988627574 
+2014 game control avg Playoff Accuracy: 6/11 = 0.5454545454545454 
+2014 game control avg LinReg Playoff RMSE: 13.227025870232902 
+2014 game control avg LinReg RegSzn RMSE: 13.32971174247405 
+2014 game control fourth Playoff Accuracy: 6/11 = 0.5454545454545454 
+2014 game control fourth LinReg Playoff RMSE: 13.84228819686687 
+2014 game control fourth LinReg RegSzn RMSE: 13.414116129028601 
+2014 Spread Playoff Accuracy: 8/11 = 0.7272727272727273 
+2014 Spread Playoff RMSE: 13.206403405510938 
+2014 Spread RegSzn RMSE: 14.466083717613417 
+
+2015 point diff Playoff Accuracy: 4/11 = 0.36363636363636365 
+2015 point diff LinReg Playoff RMSE: 15.499316845969105 
+2015 point diff LinReg RegSzn RMSE: 11.270843322235402 
+2015 point ratio Playoff Accuracy: 6/11 = 0.5454545454545454 
+2015 point ratio LinReg Playoff RMSE: 14.84820376314822 
+2015 point ratio LinReg RegSzn RMSE: 11.36879235362249 
+2015 pythagorean point ratio Playoff Accuracy: 6/11 = 0.5454545454545454 
+2015 pythagorean point ratio LinReg Playoff RMSE: 14.497796253222862 
+2015 pythagorean point ratio LinReg RegSzn RMSE: 11.342981898982382 
+2015 dsr Playoff Accuracy: 6/11 = 0.5454545454545454 
+2015 dsr LinReg Playoff RMSE: 16.409255080216283 
+2015 dsr LinReg RegSzn RMSE: 12.047645253004953 
+2015 game control Playoff Accuracy: 7/11 = 0.6363636363636364 
+2015 game control LinReg Playoff RMSE: 13.983839561472255 
+2015 game control LinReg RegSzn RMSE: 11.631784397694256 
+2015 game control signed Playoff Accuracy: 7/11 = 0.6363636363636364 
+2015 game control signed LinReg Playoff RMSE: 14.258363413803755 
+2015 game control signed LinReg RegSzn RMSE: 11.60467072042346 
+2015 game control avg Playoff Accuracy: 7/11 = 0.6363636363636364 
+2015 game control avg LinReg Playoff RMSE: 14.242438361098307 
+2015 game control avg LinReg RegSzn RMSE: 11.560776900615325 
+2015 game control fourth Playoff Accuracy: 4/11 = 0.36363636363636365 
+2015 game control fourth LinReg Playoff RMSE: 14.687836606377658 
+2015 game control fourth LinReg RegSzn RMSE: 11.495582178945535 
+2015 Spread Playoff Accuracy: 7/11 = 0.6363636363636364 
+2015 Spread Playoff RMSE: 14.96055419488803 
+2015 Spread RegSzn RMSE: 12.821833490671294 
+
+2016 point diff Playoff Accuracy: 7/11 = 0.6363636363636364 
+2016 point diff LinReg Playoff RMSE: 11.384117513679957 
+2016 point diff LinReg RegSzn RMSE: 10.56260071952144 
+2016 point ratio Playoff Accuracy: 8/11 = 0.7272727272727273 
+2016 point ratio LinReg Playoff RMSE: 12.292810752228203 
+2016 point ratio LinReg RegSzn RMSE: 10.622009528193185 
+2016 pythagorean point ratio Playoff Accuracy: 8/11 = 0.7272727272727273 
+2016 pythagorean point ratio LinReg Playoff RMSE: 12.28870165126504 
+2016 pythagorean point ratio LinReg RegSzn RMSE: 10.625851027376779 
+2016 dsr Playoff Accuracy: 9/11 = 0.8181818181818182 
+2016 dsr LinReg Playoff RMSE: 12.525005270289771 
+2016 dsr LinReg RegSzn RMSE: 11.282033157131366 
+2016 game control Playoff Accuracy: 7/11 = 0.6363636363636364 
+2016 game control LinReg Playoff RMSE: 10.297380536867507 
+2016 game control LinReg RegSzn RMSE: 10.991269306282021 
+2016 game control signed Playoff Accuracy: 7/11 = 0.6363636363636364 
+2016 game control signed LinReg Playoff RMSE: 10.364337026369764 
+2016 game control signed LinReg RegSzn RMSE: 11.003782404713853 
+2016 game control avg Playoff Accuracy: 7/11 = 0.6363636363636364 
+2016 game control avg LinReg Playoff RMSE: 10.473317987624727 
+2016 game control avg LinReg RegSzn RMSE: 10.964563529947734 
+2016 game control fourth Playoff Accuracy: 7/11 = 0.6363636363636364 
+2016 game control fourth LinReg Playoff RMSE: 11.343084288747269 
+2016 game control fourth LinReg RegSzn RMSE: 10.899156753346084 
+2016 Spread Playoff Accuracy: 9/11 = 0.8181818181818182 
+2016 Spread Playoff RMSE: 10.972071984651015 
+2016 Spread RegSzn RMSE: 11.765033600674501 
+
+2017 point diff Playoff Accuracy: 7/11 = 0.6363636363636364 
+2017 point diff LinReg Playoff RMSE: 11.642014389583977 
+2017 point diff LinReg RegSzn RMSE: 11.968920202437216 
+2017 point ratio Playoff Accuracy: 7/11 = 0.6363636363636364 
+2017 point ratio LinReg Playoff RMSE: 13.069576122257253 
+2017 point ratio LinReg RegSzn RMSE: 12.059992594985145 
+2017 pythagorean point ratio Playoff Accuracy: 6/11 = 0.5454545454545454 
+2017 pythagorean point ratio LinReg Playoff RMSE: 12.736143608804483 
+2017 pythagorean point ratio LinReg RegSzn RMSE: 12.055606205413547 
+2017 dsr Playoff Accuracy: 8/11 = 0.7272727272727273 
+2017 dsr LinReg Playoff RMSE: 11.702081217237964 
+2017 dsr LinReg RegSzn RMSE: 12.696890726301273 
+2017 game control Playoff Accuracy: 7/11 = 0.6363636363636364 
+2017 game control LinReg Playoff RMSE: 12.134180469536657 
+2017 game control LinReg RegSzn RMSE: 12.490561311491408 
+2017 game control signed Playoff Accuracy: 7/11 = 0.6363636363636364 
+2017 game control signed LinReg Playoff RMSE: 11.663195172971642 
+2017 game control signed LinReg RegSzn RMSE: 12.420812796043787 
+2017 game control avg Playoff Accuracy: 7/11 = 0.6363636363636364 
+2017 game control avg LinReg Playoff RMSE: 11.779944328538669 
+2017 game control avg LinReg RegSzn RMSE: 12.35652198580739 
+2017 game control fourth Playoff Accuracy: 6/11 = 0.5454545454545454 
+2017 game control fourth LinReg Playoff RMSE: 13.023861832860106 
+2017 game control fourth LinReg RegSzn RMSE: 12.323863857317505 
+2017 Spread Playoff Accuracy: 5/11 = 0.45454545454545453 
+2017 Spread Playoff RMSE: 13.525228951179281 
+2017 Spread RegSzn RMSE: 13.111078926808426 
+
+2018 point diff Playoff Accuracy: 4/11 = 0.36363636363636365 
+2018 point diff LinReg Playoff RMSE: 9.615317447358438 
+2018 point diff LinReg RegSzn RMSE: 11.837534347678625 
+2018 point ratio Playoff Accuracy: 4/11 = 0.36363636363636365 
+2018 point ratio LinReg Playoff RMSE: 9.724207837867874 
+2018 point ratio LinReg RegSzn RMSE: 11.898782293504762 
+2018 pythagorean point ratio Playoff Accuracy: 4/11 = 0.36363636363636365 
+2018 pythagorean point ratio LinReg Playoff RMSE: 9.715835872082828 
+2018 pythagorean point ratio LinReg RegSzn RMSE: 11.886713846351691 
+2018 dsr Playoff Accuracy: 5/11 = 0.45454545454545453 
+2018 dsr LinReg Playoff RMSE: 10.589507027014985 
+2018 dsr LinReg RegSzn RMSE: 12.347119119152602 
+2018 game control Playoff Accuracy: 6/11 = 0.5454545454545454 
+2018 game control LinReg Playoff RMSE: 8.750107006192136 
+2018 game control LinReg RegSzn RMSE: 12.387561641239417 
+2018 game control signed Playoff Accuracy: 6/11 = 0.5454545454545454 
+2018 game control signed LinReg Playoff RMSE: 8.755149060791686 
+2018 game control signed LinReg RegSzn RMSE: 12.27963335471163 
+2018 game control avg Playoff Accuracy: 6/11 = 0.5454545454545454 
+2018 game control avg LinReg Playoff RMSE: 8.93158910069336 
+2018 game control avg LinReg RegSzn RMSE: 12.198085006658847 
+2018 game control fourth Playoff Accuracy: 5/11 = 0.45454545454545453 
+2018 game control fourth LinReg Playoff RMSE: 8.009710009705577 
+2018 game control fourth LinReg RegSzn RMSE: 12.179940697708272 
+2018 Spread Playoff Accuracy: 6/11 = 0.5454545454545454 
+2018 Spread Playoff RMSE: 8.306623862918075 
+2018 Spread RegSzn RMSE: 13.120200015148397 
+
+2019 point diff Playoff Accuracy: 7/11 = 0.6363636363636364 
+2019 point diff LinReg Playoff RMSE: 12.443942443976137 
+2019 point diff LinReg RegSzn RMSE: 11.68827012106251 
+2019 point ratio Playoff Accuracy: 6/11 = 0.5454545454545454 
+2019 point ratio LinReg Playoff RMSE: 12.70139473891617 
+2019 point ratio LinReg RegSzn RMSE: 11.774329619227299 
+2019 pythagorean point ratio Playoff Accuracy: 7/11 = 0.6363636363636364 
+2019 pythagorean point ratio LinReg Playoff RMSE: 12.39070395404488 
+2019 pythagorean point ratio LinReg RegSzn RMSE: 11.762802342947326 
+2019 dsr Playoff Accuracy: 5/11 = 0.45454545454545453 
+2019 dsr LinReg Playoff RMSE: 14.595756125988654 
+2019 dsr LinReg RegSzn RMSE: 12.28779992818699 
+2019 game control Playoff Accuracy: 7/11 = 0.6363636363636364 
+2019 game control LinReg Playoff RMSE: 11.609856234652344 
+2019 game control LinReg RegSzn RMSE: 12.4302368003765 
+2019 game control signed Playoff Accuracy: 7/11 = 0.6363636363636364 
+2019 game control signed LinReg Playoff RMSE: 11.9782480982093 
+2019 game control signed LinReg RegSzn RMSE: 12.396262590627265 
+2019 game control avg Playoff Accuracy: 7/11 = 0.6363636363636364 
+2019 game control avg LinReg Playoff RMSE: 12.141387114309433 
+2019 game control avg LinReg RegSzn RMSE: 12.326371189767299 
+2019 game control fourth Playoff Accuracy: 6/11 = 0.5454545454545454 
+2019 game control fourth LinReg Playoff RMSE: 11.581231986692371 
+2019 game control fourth LinReg RegSzn RMSE: 12.33714453761852 
+2019 Spread Playoff Accuracy: 6/11 = 0.5454545454545454 
+2019 Spread Playoff RMSE: 11.018579350764368 
+2019 Spread RegSzn RMSE: 13.127455127518052 
+
+2020 point diff Playoff Accuracy: 8/13 = 0.6153846153846154 
+2020 point diff LinReg Playoff RMSE: 10.97930464191906 
+2020 point diff LinReg RegSzn RMSE: 11.497191851342624 
+2020 point ratio Playoff Accuracy: 8/13 = 0.6153846153846154 
+2020 point ratio LinReg Playoff RMSE: 11.420113768174142 
+2020 point ratio LinReg RegSzn RMSE: 11.568850900952565 
+2020 pythagorean point ratio Playoff Accuracy: 10/13 = 0.7692307692307693 
+2020 pythagorean point ratio LinReg Playoff RMSE: 10.875246037274193 
+2020 pythagorean point ratio LinReg RegSzn RMSE: 11.542957074528058 
+2020 dsr Playoff Accuracy: 9/13 = 0.6923076923076923 
+2020 dsr LinReg Playoff RMSE: 10.906644513175955 
+2020 dsr LinReg RegSzn RMSE: 11.976313630427363 
+2020 game control Playoff Accuracy: 7/13 = 0.5384615384615384 
+2020 game control LinReg Playoff RMSE: 11.77373258689565 
+2020 game control LinReg RegSzn RMSE: 12.081601743528502 
+2020 game control signed Playoff Accuracy: 7/13 = 0.5384615384615384 
+2020 game control signed LinReg Playoff RMSE: 11.81283155956939 
+2020 game control signed LinReg RegSzn RMSE: 12.10848609942509 
+2020 game control avg Playoff Accuracy: 7/13 = 0.5384615384615384 
+2020 game control avg LinReg Playoff RMSE: 11.733213413690086 
+2020 game control avg LinReg RegSzn RMSE: 12.039772650748207 
+2020 game control fourth Playoff Accuracy: 9/13 = 0.6923076923076923 
+2020 game control fourth LinReg Playoff RMSE: 10.88588588491817 
+2020 game control fourth LinReg RegSzn RMSE: 12.108736811069384 
+2020 Spread Playoff Accuracy: 8/13 = 0.6153846153846154 
+2020 Spread Playoff RMSE: 11.135528725660043 
+2020 Spread RegSzn RMSE: 12.770319286826778 
+
+2021 point diff Playoff Accuracy: 8/13 = 0.6153846153846154 
+2021 point diff LinReg Playoff RMSE: 11.235748069960685 
+2021 point diff LinReg RegSzn RMSE: 12.5317314111864 
+2021 point ratio Playoff Accuracy: 7/13 = 0.5384615384615384 
+2021 point ratio LinReg Playoff RMSE: 11.77462393333198 
+2021 point ratio LinReg RegSzn RMSE: 12.823259770607004 
+2021 pythagorean point ratio Playoff Accuracy: 6/13 = 0.46153846153846156 
+2021 pythagorean point ratio LinReg Playoff RMSE: 11.350749640771364 
+2021 pythagorean point ratio LinReg RegSzn RMSE: 12.707311223242709 
+2021 dsr Playoff Accuracy: 8/13 = 0.6153846153846154 
+2021 dsr LinReg Playoff RMSE: 10.661410880475064 
+2021 dsr LinReg RegSzn RMSE: 13.128475931193591 
+2021 game control Playoff Accuracy: 6/13 = 0.46153846153846156 
+2021 game control LinReg Playoff RMSE: 10.641852963417403 
+2021 game control LinReg RegSzn RMSE: 13.228967742785748 
+2021 game control signed Playoff Accuracy: 7/13 = 0.5384615384615384 
+2021 game control signed LinReg Playoff RMSE: 10.589273565028634 
+2021 game control signed LinReg RegSzn RMSE: 13.135343512071785 
+2021 game control avg Playoff Accuracy: 8/13 = 0.6153846153846154 
+2021 game control avg LinReg Playoff RMSE: 10.61062533174588 
+2021 game control avg LinReg RegSzn RMSE: 13.086173643390113 
+2021 game control fourth Playoff Accuracy: 8/13 = 0.6153846153846154 
+2021 game control fourth LinReg Playoff RMSE: 10.594096832042666 
+2021 game control fourth LinReg RegSzn RMSE: 13.142095174359563 
+2021 Spread Playoff Accuracy: 7/13 = 0.5384615384615384 
+2021 Spread Playoff RMSE: 10.520127229414905 
+2021 Spread RegSzn RMSE: 13.63120473938598 
+
+2022 point diff Playoff Accuracy: 10/13 = 0.7692307692307693 
+2022 point diff LinReg Playoff RMSE: 12.171425718298137 
+2022 point diff LinReg RegSzn RMSE: 10.420444129411209 
+2022 point ratio Playoff Accuracy: 9/13 = 0.6923076923076923 
+2022 point ratio LinReg Playoff RMSE: 13.070133874739163 
+2022 point ratio LinReg RegSzn RMSE: 10.576948660114068 
+2022 pythagorean point ratio Playoff Accuracy: 10/13 = 0.7692307692307693 
+2022 pythagorean point ratio LinReg Playoff RMSE: 12.411737035465901 
+2022 pythagorean point ratio LinReg RegSzn RMSE: 10.495333782171867 
+2022 dsr Playoff Accuracy: 11/13 = 0.8461538461538461 
+2022 dsr LinReg Playoff RMSE: 11.659504978958674 
+2022 dsr LinReg RegSzn RMSE: 10.855178813527914 
+2022 game control Playoff Accuracy: 10/13 = 0.7692307692307693 
+2022 game control LinReg Playoff RMSE: 11.522768689173384 
+2022 game control LinReg RegSzn RMSE: 10.793499377982448 
+2022 game control signed Playoff Accuracy: 10/13 = 0.7692307692307693 
+2022 game control signed LinReg Playoff RMSE: 10.92055099567312 
+2022 game control signed LinReg RegSzn RMSE: 10.79231946236859 
+2022 game control avg Playoff Accuracy: 10/13 = 0.7692307692307693 
+2022 game control avg LinReg Playoff RMSE: 11.05687491024028 
+2022 game control avg LinReg RegSzn RMSE: 10.786974938456593 
+2022 game control fourth Playoff Accuracy: 10/13 = 0.7692307692307693 
+2022 game control fourth LinReg Playoff RMSE: 11.32262017630352 
+2022 game control fourth LinReg RegSzn RMSE: 10.790897087354935 
+2022 Spread Playoff Accuracy: 9/13 = 0.6923076923076923 
+2022 Spread Playoff RMSE: 12.567510003668495 
+2022 Spread RegSzn RMSE: 11.408144303854355 
+
