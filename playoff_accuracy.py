@@ -2,10 +2,13 @@
 import nfl_data_py as nfl
 import numpy as np
 import pandas as pd
+from collections import defaultdict
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error as mse
+
+results = defaultdict(list)
 
 for TEST_YEAR in range(2005, 2023):
 
@@ -15,7 +18,7 @@ for TEST_YEAR in range(2005, 2023):
         if TEST_YEAR > 2020 \
         else list(range(TEST_YEAR - 6, TEST_YEAR + 1))
 
-    if 2020 in calibration_years:
+    if 2020 in calibration_years and calibration_years[-1] != 2020:
         calibration_years.remove(2020)
 
     games = nfl.import_schedules(calibration_years)
@@ -153,10 +156,10 @@ for TEST_YEAR in range(2005, 2023):
             correct += home_won == home_pred
             total += 1
 
-        with open('results/playoff_results.txt', 'a') as file:
-            file.write(f"{TEST_YEAR} {METRIC} Playoff Accuracy: {correct}/{total} = {correct/total} \n")
-            file.write(f"{TEST_YEAR} {METRIC} LinReg Playoff RMSE: {mse(linr_y_test, playoff_clf.predict(linr_X_test.reshape(-1, 1)), squared=False)} \n")
-            file.write(f"{TEST_YEAR} {METRIC} LinReg RegSzn RMSE: {mse(linr_y, playoff_clf.predict(linr_X.reshape(-1, 1)), squared=False)} \n")
+        print(f"{TEST_YEAR} {METRIC}")
+        results[f"{METRIC} Playoff Accuracy"].append(correct / total)
+        results[f"{METRIC} LinReg Playoff RMSE"].append(mse(linr_y_test, playoff_clf.predict(linr_X_test.reshape(-1, 1)), squared=False))
+        results[f"{METRIC} LinReg RegSzn RMSE"].append(mse(linr_y, playoff_clf.predict(linr_X.reshape(-1, 1)), squared=False))
 
     playoffs = games[(games['season'] == TEST_YEAR) & (games['game_type'] != 'REG')]
     total, correct = 0, 0
@@ -167,8 +170,11 @@ for TEST_YEAR in range(2005, 2023):
         correct += home_won == home_pred
         total += 1
 
-    with open('results/playoff_results.txt', 'a') as file:
-        file.write(f"{TEST_YEAR} Spread Playoff Accuracy: {correct}/{total} = {correct/total} \n")
-        file.write(f"{TEST_YEAR} Spread Playoff RMSE: {mse(np.array(playoffs['result']), np.array(playoffs['spread_line']), squared=False)} \n")
-        file.write(f"{TEST_YEAR} Spread RegSzn RMSE: {mse(np.array(games_test_year['result']), np.array(games_test_year['spread_line']), squared=False)} \n")
-        file.write('\n')
+    print(f"{TEST_YEAR} Spread")
+    results["Spread Playoff Accuracy"].append(correct / total)
+    results["Spread Playoff RMSE"].append(mse(np.array(playoffs['result']), np.array(playoffs['spread_line']), squared=False))
+    results["Spread RegSzn RMSE"].append(mse(np.array(games_test_year['result']), np.array(games_test_year['spread_line']), squared=False))
+
+results_df = pd.DataFrame.from_dict(results, orient='index')
+results_df.rename(columns={y:y+2005 for y in range(len(results_df.columns))}, inplace=True)
+results_df.to_csv('results/playoff_results.csv')
