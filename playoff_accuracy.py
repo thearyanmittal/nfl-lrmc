@@ -9,6 +9,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error as mse
 
 results = defaultdict(list)
+game_preds = defaultdict(list)
 
 for TEST_YEAR in range(2005, 2023):
 
@@ -153,6 +154,7 @@ for TEST_YEAR in range(2005, 2023):
                                         rating_df.loc[game['home_team']]['rating'] -
                                         rating_df.loc[game['away_team']]['rating']]).reshape(-1, 1))[0][0] > 0 \
                 else False
+            game_preds[f'{METRIC} Playoff Predictions'].append(home_pred)
             correct += home_won == home_pred
             total += 1
 
@@ -167,6 +169,8 @@ for TEST_YEAR in range(2005, 2023):
         home_won = True if game['result'] > 0 else False
         home_pred = True \
             if game['spread_line'] > 0 else False
+        game_preds['Spread Playoff Predictions'].append(home_pred)
+        game_preds['Playoff Results'].append(home_won)
         correct += home_won == home_pred
         total += 1
 
@@ -175,6 +179,9 @@ for TEST_YEAR in range(2005, 2023):
     results["Spread Playoff RMSE"].append(mse(np.array(playoffs['result']), np.array(playoffs['spread_line']), squared=False))
     results["Spread RegSzn RMSE"].append(mse(np.array(games_test_year['result']), np.array(games_test_year['spread_line']), squared=False))
 
-results_df = pd.DataFrame.from_dict(results, orient='index')
-results_df.rename(columns={y:y+2005 for y in range(len(results_df.columns))}, inplace=True)
-results_df.to_csv('results/playoff_results.csv')
+# results_df = pd.DataFrame.from_dict(results, orient='index')
+# results_df.rename(columns={y:y+2005 for y in range(len(results_df.columns))}, inplace=True)
+# results_df.to_csv('results/playoff_results.csv')
+
+game_preds_df = pd.DataFrame.from_dict(game_preds, orient='index')
+game_preds_df.to_csv('results/game_preds.csv')
