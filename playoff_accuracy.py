@@ -1,4 +1,6 @@
 # import packages
+import warnings
+
 import nfl_data_py as nfl
 import numpy as np
 import pandas as pd
@@ -8,8 +10,11 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error as mse
 
+warnings.filterwarnings("ignore")
+
 results = defaultdict(list)
 game_preds = defaultdict(list)
+linr_preds = defaultdict(list)
 
 for TEST_YEAR in range(2005, 2023):
 
@@ -136,7 +141,11 @@ for TEST_YEAR in range(2005, 2023):
         ])
         linr_y = np.array([row['result'] for (index, row) in games_test_year.iterrows()])
 
-        playoff_clf = LinearRegression().fit(linr_X.reshape(-1, 1), linr_y.reshape(-1, 1))
+        linr_clf = LinearRegression()
+        linr_clf.fit(linr_X.reshape(-1, 1), linr_y.reshape(-1, 1))
+
+        # get linear regression spread predictions for each regular season game of TEST_YEAR
+        linr_preds[f'{METRIC} Predicted Spread'].extend([y[0] for y in linr_clf.predict([[x] for x in linr_X])])
 
         # loop through TEST_YEAR's playoff games and compute accuracy
         playoffs = games[(games['season'] == TEST_YEAR) & (games['game_type'] != 'REG')]
@@ -149,30 +158,32 @@ for TEST_YEAR in range(2005, 2023):
         total, correct = 0, 0
         for (index, game) in playoffs.iterrows():
             home_won = True if game['result'] > 0 else False
-            home_pred = True \
-                if playoff_clf.predict(np.array([
+            home_pred = linr_clf.predict(np.array([
                                         rating_df.loc[game['home_team']]['rating'] -
-                                        rating_df.loc[game['away_team']]['rating']]).reshape(-1, 1))[0][0] > 0 \
-                else False
+                                        rating_df.loc[game['away_team']]['rating']]).reshape(-1, 1))[0][0]
             game_preds[f'{METRIC} Playoff Predictions'].append(home_pred)
-            correct += home_won == home_pred
+            correct += home_won == (home_pred > 0)
             total += 1
 
         print(f"{TEST_YEAR} {METRIC}")
         results[f"{METRIC} Playoff Accuracy"].append(correct / total)
-        results[f"{METRIC} LinReg Playoff RMSE"].append(mse(linr_y_test, playoff_clf.predict(linr_X_test.reshape(-1, 1)), squared=False))
-        results[f"{METRIC} LinReg RegSzn RMSE"].append(mse(linr_y, playoff_clf.predict(linr_X.reshape(-1, 1)), squared=False))
+        results[f"{METRIC} LinReg Playoff RMSE"].append(mse(linr_y_test, linr_clf.predict(linr_X_test.reshape(-1, 1)), squared=False))
+        results[f"{METRIC} LinReg RegSzn RMSE"].append(mse(linr_y, linr_clf.predict(linr_X.reshape(-1, 1)), squared=False))
+
+    linr_preds['Year'].extend([TEST_YEAR]*len(games_test_year))
+    linr_preds['Result'].extend(games_test_year['result'])
 
     playoffs = games[(games['season'] == TEST_YEAR) & (games['game_type'] != 'REG')]
     total, correct = 0, 0
     for (index, game) in playoffs.iterrows():
         home_won = True if game['result'] > 0 else False
-        home_pred = True \
-            if game['spread_line'] > 0 else False
-        game_preds['Spread Playoff Predictions'].append(home_pred)
-        game_preds['Playoff Results'].append(home_won)
-        correct += home_won == home_pred
+        game_preds['Spread Playoff Predictions'].append(game['spread_line'])
+        game_preds['Playoff Result'].append(home_won)
+        correct += home_won == (game['spread_line'] > 0)
         total += 1
+
+    game_preds['Year'].extend([TEST_YEAR]*len(playoffs))
+    game_preds['Playoff Result Spread'].extend(playoffs['result'])
 
     print(f"{TEST_YEAR} Spread")
     results["Spread Playoff Accuracy"].append(correct / total)
@@ -183,5 +194,6 @@ for TEST_YEAR in range(2005, 2023):
 # results_df.rename(columns={y:y+2005 for y in range(len(results_df.columns))}, inplace=True)
 # results_df.to_csv('results/playoff_results.csv')
 
-game_preds_df = pd.DataFrame.from_dict(game_preds, orient='index')
-game_preds_df.to_csv('results/game_preds.csv')
+pd.DataFrame.from_dict(game_preds, orient='index').to_csv('data/game_preds.csv')
+
+# pd.DataFrame.from_dict(linr_preds, orient='index').to_csv('data/linr_preds.csv')
