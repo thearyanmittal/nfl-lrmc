@@ -184,6 +184,7 @@ for TEST_YEAR in range(2005, 2023):
 
     game_preds['Year'].extend([TEST_YEAR]*len(playoffs))
     game_preds['Playoff Result Spread'].extend(playoffs['result'])
+    game_preds['Playoff Game Type'].extend(playoffs['game_type'])
 
     print(f"{TEST_YEAR} Spread")
     results["Spread Playoff Accuracy"].append(correct / total)
